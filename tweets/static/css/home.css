@@ -1,0 +1,120 @@
+html{
+    background-color: rgb(17, 12, 49);
+}
+.fform{
+    width: 40%;
+    border-radius: 15px;
+    border: 1px solid rgb(50, 50, 81);
+    /* align-self: center; */
+    height: fit-content;
+    /* display: flex; */
+    transition: .4s;
+    padding: 12px;
+    margin: 30px auto;
+    background-color: rgb(23, 129, 146);
+    padding-top: 25px;
+}
+#outBox{
+    /* background-color: rgb(34, 74, 80); */
+    width: 70%;
+    height: 160px;
+    border-radius: 9px;
+    margin: auto;
+    /* padding: 10px; */
+    /* padding-top: 4px; */
+    display: flex;
+
+
+}
+.data{
+    margin-top: 6px;
+    font-size: large;
+    border-radius: 5px;
+    margin-right: 40px;
+    text-align: center;
+    width: 33%;
+    padding: 5px;
+
+}
+#data_1{
+    background-color: rgb(193, 73, 73);
+}
+#data_2{
+    background-color: rgb(157, 150, 150);
+}
+#data_3{
+    background-color: rgb(106, 159, 124);
+}
+.fform button{
+    display: block;
+    height: 35px;
+    width: 90px;
+    border-radius: 15px;
+    margin: auto;
+    border: transparent;
+    transition: .4s;
+}
+.fform textarea{
+    display: block;
+    height: 150px;
+    width: 90%;
+    border-radius: 8px;
+    margin: auto;
+    margin-left: ;
+    border: transparent;
+    /* transition: .4s; */
+}
+.fform button:hover{
+    background-color: rgb(191, 216, 237);
+    
+    
+    cursor: pointer;
+
+}
+
+
+
+
+
+.emoji {
+    width: 100px;
+    height: 100px;
+    /* background-color: yellow; */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.9s ease-in-out;
+    margin:auto;
+    /* transition: .5s; */
+  }
+  
+  
+  .positive::after {
+    content: "😋";
+    font-size: 80px;
+  }
+  
+  .neutral::after {
+    content: "😐";
+    font-size: 80px;
+  }
+  
+  .negative::after {
+    content: "😔";
+    font-size: 80px;
+  }
+  
+  .emoji:hover {
+    transform: scale(1.2);
+  }
+  
+  .positive:hover::after {
+    content: "😄";
+  }
+  
+  .neutral:hover::after {
+    content: "😕";
+  }
+  
+  .negative:hover::after {
+    content: "😢";
+  }
